@@ -1,0 +1,21 @@
+{
+  "name": "agent-deck",
+  "version": "1.0.0",
+  "description": "Multi-Agent local orchestration desk with Agent Client Protocol (ACP) & Stream JSON support",
+  "type": "module",
+  "main": "server/server.mjs",
+  "scripts": {
+    "start": "node server/server.mjs",
+    "test": "node server/e2e-test.mjs"
+  },
+  "keywords": [
+    "ai-agent",
+    "multi-agent",
+    "acp",
+    "agent-client-protocol",
+    "llm",
+    "orchestrator"
+  ],
+  "author": "HankGuo",
+  "license": "MIT"
+}
